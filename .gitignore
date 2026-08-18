@@ -1,0 +1,8 @@
+# Secrets — never commit real credentials/salt (see .env.example for the template)
+.env
+
+# Editor/OS cruft
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

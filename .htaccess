@@ -1,0 +1,5 @@
+# Block direct browser access to dotfiles (.env especially — it holds the
+# DB password and the NID hashing salt). Apache 2.4 syntax (XAMPP default).
+<FilesMatch "^\.">
+    Require all denied
+</FilesMatch>
